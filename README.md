@@ -1,12 +1,92 @@
 # Reference Hybrid System Designs
 
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Reference Design Overview](#reference-design-overview)
+3. [Getting Started](#getting-started)
+3. [Developers Guide](#developers-guide)
+
 ## Introduction
 This repository is intended to house reference hybrid system designs created at NREL. We hope that by hosting these designs on a public repository we will encourage and facilitate collaboration on these designs so they can be improved and refined through external input and use. If you are interested in using these designs, we hope you find them useful and ask that you properly reference this repository. If you are interested in contributing, please following the developers guide provided below.
 
-## Design Overview
+## Reference Design Overview
 
-| Location Name | Product | Land-based technology | Offshore technology |
-|-|-|-|-|
-| Texas | Ammonia | Wind, solar, battery storage, electrolysis, hydrogen storage (salt caverns)| N/A |
+| ID | State/Province (area) | Product | Grid connection | Land-based technology | Offshore technology |
+|-|-|-|-|-|-|
+| 01 | Minnisota | Steel | Yes (ore and steel tech only) | Wind, solar (pv), battery storage, electrolysis, hydrogen storage (rock cavern), iron ore refining, steel production | N/A |
+| 02 | Texas | Ammonia | No | Wind, solar (pv), battery storage, electrolysis, hydrogen storage (salt cavern), ammonia production| N/A |
+| 03 | Texas (gulf coast) | Hydrogen | No | Solar (pv), battery storage, electrolysis, hydrogen storage (salt cavern) | Wind (fixed foundation) |
+| 04 | New York | Hydrogen | No | Solar (pv), battery storage, electrolysis, hydrogen storage (rock cavern) | Wind (fixed foundation) |
+| 05 | California | Hydrogen | No | Solar (pv), battery storage, electrolysis, hydrogen storage (rock cavern) | Wind (floating foundation) |
 
-# Developers Guide
+## Getting Started
+You will need to clone this repository and set up any software packages you wish to use to run the reference designs. Software is not included in this repository.
+
+### Organization
+You will find files for the reference designs organized as follows:
+- Run scripts for using the reference design with a specific software package: `reference-systems/<reference-design-directory>/<software-name>/`
+- Input files for using the reference design with a specific software package: `reference-systems/<reference-design-directory>/<software-name>/input-files/`
+- Supporting documentation, such as pdf files: `reference-systems/<reference-design-directory>/doc/`
+- Tests: `tests/test-<reference-design-directory>/test-<software-name>.py` 
+
+## Developers Guide
+
+### Forking the Repository
+
+1. Navigate to the [repository homepage](https://github.com/your-repository/your-repository).
+2. Click the **Fork** button in the upper-right corner to create a personal copy of the repository under your GitHub account.
+
+### Cloning Your Fork
+
+1. Clone your fork to your local machine:
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+   ```
+2. Navigate into the cloned directory:
+   ```bash
+   cd your-repository
+   ```
+
+### Making Changes
+
+1. **Create a New Branch**: For each new change, create a separate branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+2. **Add or Update Files**: Make your changes to the reference files as needed.
+
+3. **Commit Your Changes**: Commit your changes with a clear, descriptive message:
+   ```bash
+   git add .
+   git commit -m "Add/update reference file for [specific purpose]"
+   ```
+
+4. **Push Your Changes**: Push your branch to your fork:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+### Adding Tests
+
+- **Test Files**: If your changes involve adding or modifying files that could benefit from automated tests (e.g., validation scripts for file formats), include test files in a `tests/` directory within the repository.
+  
+- **Test Instructions**: Add instructions for running tests in a `README.md` or a `TESTING.md` file if appropriate. Ensure your tests are clear, reproducible, and relevant to the changes made.
+
+### Creating a Pull Request
+
+1. Go to your repository on GitHub.
+2. Click the **Compare & pull request** button next to your branch.
+3. Provide a detailed description of the changes you made, including any relevant context and test results.
+4. Submit the pull request.
+
+### Review and Merge Process
+
+- **Review**: Repository maintainers will review your pull request, check for any issues, and provide feedback if necessary.
+- **Merge**: Once approved, your changes will be merged into the main branch.
+
+### Code of Conduct
+
+We strive to maintain a positive and respectful community.
+
+--
+ChatGPT was used to assist in development of this document
