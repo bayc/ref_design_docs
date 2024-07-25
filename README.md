@@ -11,7 +11,7 @@ This repository is intended to house reference hybrid system designs created at 
 
 ## Reference Design Overview
 
-| ID | State/Province (area) | Product | Grid connection | Land-based technology | Offshore technology |
+| ID | Region (detail) | Product | Grid connection | Land-based technology | Offshore technology |
 |-|-|-|-|-|-|
 | 01 | Minnisota | Steel | Yes (ore and steel tech only) | Wind, solar (pv), battery storage, electrolysis, hydrogen storage (rock cavern), iron ore refining, steel production | N/A |
 | 02 | Texas | Ammonia | No | Wind, solar (pv), battery storage, electrolysis, hydrogen storage (salt cavern), ammonia production| N/A |
@@ -24,16 +24,16 @@ You will need to clone this repository and set up any software packages you wish
 
 ### Organization
 You will find files for the reference designs organized as follows:
-- Run scripts for using the reference design with a specific software package: `reference-systems/<reference-design-directory>/<software-name>/`
-- Input files for using the reference design with a specific software package: `reference-systems/<reference-design-directory>/<software-name>/input-files/`
-- Supporting documentation, such as pdf files: `reference-systems/<reference-design-directory>/doc/`
+- Run scripts for using the reference design with a specific software package: `reference-systems/<##-region-product>/<software-name>/`
+- Input files for using the reference design with a specific software package: `reference-systems/<##-region-product>/<software-name>/input-files/`
+- Supporting documentation, such as pdf files: `reference-systems/<##-region-product>/doc/`
 - Tests: `tests/test-<reference-design-directory>/test-<software-name>.py` 
 
 ## Developers Guide
 
 ### Forking the Repository
 
-1. Navigate to the [repository homepage](https://github.com/your-repository/your-repository).
+1. Navigate to the [repository homepage](https://github.com/NREL/ReferenceHybridSystemDesigns).
 2. Click the **Fork** button in the upper-right corner to create a personal copy of the repository under your GitHub account.
 
 ### Cloning Your Fork
@@ -68,7 +68,7 @@ You will find files for the reference designs organized as follows:
 
 ### Adding Tests
 
-- **Test Files**: If your changes involve adding or modifying files that could benefit from automated tests (e.g., validation scripts for file formats), include test files in a `tests/` directory within the repository.
+- **Test Files**: If your changes involve adding or modifying files that could benefit from automated tests (e.g., validation scripts for file formats), include test files in the `tests/` directory within the repository (see [Organization](#organization)).
   
 - **Test Instructions**: Add instructions for running tests in a `README.md` or a `TESTING.md` file if appropriate. Ensure your tests are clear, reproducible, and relevant to the changes made.
 
