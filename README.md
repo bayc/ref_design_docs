@@ -27,7 +27,7 @@ You will find files for the reference designs organized as follows:
 - Run scripts for using the reference design with a specific software package: `reference-systems/<##-region-product>/<software-name>/`
 - Input files for using the reference design with a specific software package: `reference-systems/<##-region-product>/<software-name>/input-files/`
 - Supporting documentation, such as pdf files: `reference-systems/<##-region-product>/doc/`
-- Tests: `tests/test-<reference-design-directory>/test-<software-name>.py` 
+- Tests: `tests/test-<##-region-product>/test-<software-name>.py` 
 
 ## Developers Guide
 
@@ -40,11 +40,11 @@ You will find files for the reference designs organized as follows:
 
 1. Clone your fork to your local machine:
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/your-username/ReferenceHybridSystemDesigns.git
    ```
 2. Navigate into the cloned directory:
    ```bash
-   cd your-repository
+   cd ReferenceHybridSystemDesigns
    ```
 
 ### Making Changes
