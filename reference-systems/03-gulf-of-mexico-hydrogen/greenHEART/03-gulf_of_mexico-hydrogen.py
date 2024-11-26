@@ -13,8 +13,8 @@ initialize_library(os.path.join(os.getcwd(), "./input-files/"))
 # run the stuff
 if __name__ == "__main__":
     # load inputs as needed
-    turbine_model = "osw_15MW"
-    region = "ny"
+    turbine_model = "osw_17MW"
+    region = "gom"
     filename_turbine_config = "./input-files/turbines/"+ turbine_model +".yaml"
     filename_floris_config = "./input-files/floris/floris_input_"+ turbine_model+ ".yaml"
     filename_hopp_config = "./input-files/plant/hopp_config_"+region+".yaml"
@@ -33,8 +33,8 @@ if __name__ == "__main__":
         use_profast=True,
         post_processing=True,
         incentive_option=1,
-        plant_design_scenario=1,
-        output_level=5,
+        plant_design_scenario=3,
+        output_level=8,
     )
 
     # for analysis
