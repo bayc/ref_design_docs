@@ -1,0 +1,24 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+- caption: Getting Started
+  chapters:
+    - file: getting_started/overview
+    - file: getting_started/install
+
+- caption: User Guide
+  chapters:
+    - file: user_guide/user_guide.md
+
+- caption: Examples
+  chapters:
+  - file: examples/01_run_reference_system
+  - file: examples/02_modify_reference_system
+
+- caption: Developer Guide
+  chapters:
+    - file: CONTRIBUTING
+    - file: developer_guide/developer_guide.md

@@ -38,6 +38,7 @@ html:
   use_issues_button: true
   use_repository_button: true
   baseurl: https://nrel.github.io/ReferenceHybridSystemDesigns/
+  google_analytics_id: G-B348G1L3ZF
 
 sphinx:
   extra_extensions:
