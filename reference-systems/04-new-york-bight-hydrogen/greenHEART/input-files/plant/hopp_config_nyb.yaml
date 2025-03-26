@@ -68,7 +68,7 @@ technologies:
         capital_gains_tax_rate: 15.0 # H2FAST default
         debt_type: "Revolving debt" # H2FAST default
         depreciation_method: "MACRS"
-        depreciation_period: 5 # years - for clean energy facilities as specified by the IRS MACRS schedule https://www.irs.gov/publications/p946#en_US_2020_publink1000107507
+        depreciation_period: 7 # years - based on "Techno-economic analysis of low-carbon hydrogen production pathways for decarbonizing steel and ammonia production" by Evan Reznicek, et. al.
       cp_capacity_credit_percent: [0]
       degradation: [0]
       revenue:
@@ -112,7 +112,7 @@ technologies:
         capital_gains_tax_rate: 15.0 # H2FAST default
         debt_type: "Revolving debt" # H2FAST default
         depreciation_method: "MACRS"
-        depreciation_period: 5 # years - for clean energy facilities as specified by the IRS MACRS schedule https://www.irs.gov/publications/p946#en_US_2020_publink1000107507
+        depreciation_period: 7 # years - based on "Techno-economic analysis of low-carbon hydrogen production pathways for decarbonizing steel and ammonia production" by Evan Reznicek, et. al.
       cp_capacity_credit_percent: [0]
       degradation: [0]
       revenue:
@@ -158,7 +158,7 @@ technologies:
         capital_gains_tax_rate: 15.0 # H2FAST default
         debt_type: "Revolving debt" # H2FAST default
         depreciation_method: "MACRS"
-        depreciation_period: 5 # years - for clean energy facilities as specified by the IRS MACRS schedule https://www.irs.gov/publications/p946#en_US_2020_publink1000107507
+        depreciation_period: 7 # years - based on "Techno-economic analysis of low-carbon hydrogen production pathways for decarbonizing steel and ammonia production" by Evan Reznicek, et. al.
       cp_capacity_credit_percent: [0]
       degradation: [0]
       revenue:
@@ -200,7 +200,7 @@ technologies:
         capital_gains_tax_rate: 15.0 # H2FAST default
         debt_type: "Revolving debt" # H2FAST default
         depreciation_method: "MACRS"
-        depreciation_period: 5 # years - for clean energy facilities as specified by the IRS MACRS schedule https://www.irs.gov/publications/p946#en_US_2020_publink1000107507
+        depreciation_period: 7 # years - based on "Techno-economic analysis of low-carbon hydrogen production pathways for decarbonizing steel and ammonia production" by Evan Reznicek, et. al.
       cp_capacity_credit_percent: [0]
       degradation: [0]
       revenue:
