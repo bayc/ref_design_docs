@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reference-systems"
+dynamic = ["version"]
+authors = [{name = "NREL", email = "jared.thomas@nrel.gov"}]
+readme = {file = "README.md", content-type = "text/markdown"}
+description = "Reference Hybrid System Designs"
+requires-python = ">=3.9, <3.12"
+license = {file = "LICENSE"}
+dependencies = [
+    "greenheart@git+https://github.com/NREL/greenheart.git@develop",
+    "setuptools",
+]
+
+[project.urls]
+source = "https://github.com/NREL/ReferenceHybridSystemDesigns"
+# documentation = "https://nrel.github.io/ReferenceHybridSystemDesigns"
+issues = "https://github.com/NREL/ReferenceHybridSystemDesigns/issues"
+
+[project.optional-dependencies]
+develop = [
+    "pytest",
+    "pytest-subtests",
+    "responses",
+    "Plotly",
+    "jupyter-book",
+    "sphinxcontrib-napoleon",
+]
+examples = ["jupyterlab"]
+all = ["reference-systems[develop,examples]"]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = [
+    "reference_systems",
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "reference_systems.__version__"}
+
+# [tool.pytest.ini_options]
+# python_files = [
+#     "tests/*.py",
+# ]
+# testpaths = [
+#     "test/reference-systems/*.py",
+# ]
