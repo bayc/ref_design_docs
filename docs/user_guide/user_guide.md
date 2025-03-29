@@ -148,17 +148,17 @@ for the reference designs.
     <td class="tg-0pky">Hydrogen storage capacity (kt)</td>
     <td class="tg-dvpl">1.9</td>
     <td class="tg-dvpl">3.6</td>
-    <td class="tg-dvpl">4.2</td>
     <td class="tg-dvpl">5.7</td>
-    <td class="tg-dvpl">8.3</td>
+    <td class="tg-dvpl">7.1</td>
+    <td class="tg-dvpl">8.8</td>
   </tr>
   <tr>
     <td class="tg-0lax">Hydrogen storage max fill rate (t/h)</td>
     <td class="tg-lqy6">14.1</td>
     <td class="tg-lqy6">12.5</td>
     <td class="tg-lqy6">22.2</td>
-    <td class="tg-lqy6">22.1</td>
-    <td class="tg-lqy6">22.1</td>
+    <td class="tg-lqy6">22.2</td>
+    <td class="tg-lqy6">22.2</td>
   </tr>
   <tr>
     <td class="tg-btxf">Steel capacity (Mt/yr)</td>
@@ -171,22 +171,22 @@ for the reference designs.
   <tr>
     <td class="tg-0pky">Ammonia capacity (kt/yr)</td>
     <td class="tg-dvpl"></td>
-    <td class="tg-dvpl">360.3</td>
+    <td class="tg-dvpl">355.8</td>
     <td class="tg-dvpl"></td>
     <td class="tg-dvpl"></td>
     <td class="tg-dvpl"></td>
   </tr>
   <tr>
     <td class="tg-btxf">LCOH (USD/kg-H2)</td>
-    <td class="tg-5fiw">7.20</td>
-    <td class="tg-5fiw">5.80</td>
-    <td class="tg-5fiw">16.00</td>
-    <td class="tg-5fiw">17.10</td>
-    <td class="tg-5fiw">21.00</td>
+    <td class="tg-5fiw">7.40</td>
+    <td class="tg-5fiw">5.90</td>
+    <td class="tg-5fiw">10.60</td>
+    <td class="tg-5fiw">11.30</td>
+    <td class="tg-5fiw">15.20</td>
   </tr>
   <tr>
     <td class="tg-0pky">LCOS (USD/t steel)</td>
-    <td class="tg-dvpl">1235.30</td>
+    <td class="tg-dvpl">1258.30</td>
     <td class="tg-dvpl"></td>
     <td class="tg-dvpl"></td>
     <td class="tg-dvpl"></td>
@@ -344,8 +344,8 @@ that were used across all reference design scenarios.
     <td class="tg-lqy6">8.3%</td>
     <td class="tg-lqy6">8.5%</td>
     <td class="tg-lqy6">8.2%</td>
-    <td class="tg-lqy6">8.2%</td>
-    <td class="tg-lqy6">8.5%</td>
+    <td class="tg-lqy6">8.3%</td>
+    <td class="tg-lqy6">8.6%</td>
   </tr>
   <tr>
     <td class="tg-buh4">Debt percentage hyrdogen</td>
@@ -457,19 +457,19 @@ that were used across all reference design scenarios.
   </tr>
   <tr>
     <td class="tg-0lax">Hydrogen storage CapEx (USD/kg)</td>
-    <td class="tg-lqy6">49.6</td>
-    <td class="tg-lqy6">19.7</td>
-    <td class="tg-lqy6">19.3</td>
-    <td class="tg-lqy6">47.7</td>
-    <td class="tg-lqy6">49.6</td>
+    <td class="tg-lqy6">49.75</td>
+    <td class="tg-lqy6">19.62</td>
+    <td class="tg-lqy6">18.89</td>
+    <td class="tg-lqy6">48.67</td>
+    <td class="tg-lqy6">50.12</td>
   </tr>
   <tr>
     <td class="tg-btxf">Hydrogen storage fixed O&M (USD/t)</td>
-    <td class="tg-5fiw">1752.3</td>
-    <td class="tg-5fiw">709.5</td>
-    <td class="tg-5fiw">698.9</td>
-    <td class="tg-5fiw">1561.8</td>
-    <td class="tg-5fiw">1595.8</td>
+    <td class="tg-5fiw">1759.00</td>
+    <td class="tg-5fiw">707.22</td>
+    <td class="tg-5fiw">661.31</td>
+    <td class="tg-5fiw">1575.23</td>
+    <td class="tg-5fiw">1606.92</td>
   </tr>
   <tr>
     <th class="tg-amwm" colspan="6">Hydrogen storage financial parameters</th>
@@ -652,17 +652,17 @@ were used across all reference design scenarios.
     <td class="tg-0pky">Wind CapEx (USD/kW)</td>
     <td class="tg-dvpl">1380.00</td>
     <td class="tg-dvpl">1380.00</td>
-    <td class="tg-dvpl">2470.36*</td>
-    <td class="tg-dvpl">2470.89*</td>
-    <td class="tg-dvpl">4247.00*</td>
+    <td class="tg-dvpl">2470.36</td>
+    <td class="tg-dvpl">2470.89</td>
+    <td class="tg-dvpl">4247.00</td>
   </tr>
   <tr>
     <td class="tg-btxf">Wind fixed O&amp;M (USD/kW)</td>
     <td class="tg-5fiw">29.00</td>
     <td class="tg-5fiw">29.00</td>
-    <td class="tg-5fiw">134.98*</td>
-    <td class="tg-5fiw">145.05*</td>
-    <td class="tg-5fiw">118.96*</td>
+    <td class="tg-5fiw">134.98</td>
+    <td class="tg-5fiw">145.05</td>
+    <td class="tg-5fiw">118.96</td>
   </tr>
   <tr>
     <th class="tg-amwm" colspan="6">Wind Financial Parameters</th>
@@ -1005,11 +1005,11 @@ steel production, ID 01 in Minnesota.
   </tr>
   <tr>
     <td class="tg-btxf">Steel plant CapEx (USD/kW)</td>
-    <td class="tg-5fiw">571.03*</td>
+    <td class="tg-5fiw">576.22</td>
   </tr>
   <tr>
     <td class="tg-0pky">Steel plant fixed O&amp;M (USD/kW)</td>
-    <td class="tg-dvpl">96.50*</td>
+    <td class="tg-dvpl">98.20</td>
   </tr>
   <tr>
     <th class="tg-amwm" colspan="2">Steel Financial Parameters</th>
@@ -1087,11 +1087,11 @@ ammonia production, ID 02 in Texas.
   </tr>
   <tr>
     <td class="tg-btxf">Ammonia plant CapEx (USD/kW)</td>
-    <td class="tg-5fiw">279.90</td>
+    <td class="tg-5fiw">281.30</td>
   </tr>
   <tr>
     <td class="tg-0pky">Ammonia plant fixed O&amp;M (USD/kW)</td>
-    <td class="tg-dvpl">30.90</td>
+    <td class="tg-dvpl">31.20</td>
   </tr>
   <tr>
     <th class="tg-amwm" colspan="2">Ammonia Financial Parameters</th>
