@@ -92,9 +92,9 @@ for the reference designs.
     <td class="tg-btxf">PEM electrolyzer rating (MW)</td>
     <td class="tg-5fiw">720.0</td>
     <td class="tg-5fiw">640.0</td>
-    <td class="tg-5fiw">1125.0</td>
-    <td class="tg-5fiw">1125.0</td>
-    <td class="tg-5fiw">1125.0</td>
+    <td class="tg-5fiw">1125.1</td>
+    <td class="tg-5fiw">1125.1</td>
+    <td class="tg-5fiw">1125.1</td>
   </tr>
   <tr>
     <td class="tg-0pky">Wind farm rating (MW)</td>
@@ -136,33 +136,33 @@ for the reference designs.
     <td class="tg-dvpl">1500.0</td>
     <td class="tg-dvpl">1500.0</td>
   </tr>
-  <tr>
+  <!-- <tr>
     <td class="tg-btxf">Hydrogen generation rating (kt)</td>
     <td class="tg-5fiw">115.0</td>
     <td class="tg-5fiw">103.0</td>
     <td class="tg-5fiw">181.0</td>
     <td class="tg-5fiw">181.0</td>
     <td class="tg-5fiw">181.0</td>
-  </tr>
+  </tr> -->
   <tr>
     <td class="tg-0pky">Hydrogen storage capacity (kt)</td>
-    <td class="tg-dvpl">1.7</td>
-    <td class="tg-dvpl">3.4</td>
-    <td class="tg-dvpl">5.3</td>
-    <td class="tg-dvpl">6.6</td>
-    <td class="tg-dvpl">8.2</td>
+    <td class="tg-dvpl">1.9</td>
+    <td class="tg-dvpl">3.6</td>
+    <td class="tg-dvpl">4.2</td>
+    <td class="tg-dvpl">5.7</td>
+    <td class="tg-dvpl">8.3</td>
   </tr>
   <tr>
     <td class="tg-0lax">Hydrogen storage max fill rate (t/h)</td>
-    <td class="tg-lqy6">13.2</td>
-    <td class="tg-lqy6">11.7</td>
-    <td class="tg-lqy6">20.7</td>
-    <td class="tg-lqy6">20.7</td>
-    <td class="tg-lqy6">20.7</td>
+    <td class="tg-lqy6">14.1</td>
+    <td class="tg-lqy6">12.5</td>
+    <td class="tg-lqy6">22.2</td>
+    <td class="tg-lqy6">22.1</td>
+    <td class="tg-lqy6">22.1</td>
   </tr>
   <tr>
     <td class="tg-btxf">Steel capacity (Mt/yr)</td>
-    <td class="tg-5fiw">1.0</td>
+    <td class="tg-5fiw">1.1</td>
     <td class="tg-5fiw"></td>
     <td class="tg-5fiw"></td>
     <td class="tg-5fiw"></td>
@@ -171,22 +171,22 @@ for the reference designs.
   <tr>
     <td class="tg-0pky">Ammonia capacity (kt/yr)</td>
     <td class="tg-dvpl"></td>
-    <td class="tg-dvpl">329.0</td>
+    <td class="tg-dvpl">360.3</td>
     <td class="tg-dvpl"></td>
     <td class="tg-dvpl"></td>
     <td class="tg-dvpl"></td>
   </tr>
   <tr>
     <td class="tg-btxf">LCOH (USD/kg-H2)</td>
-    <td class="tg-5fiw">6.3</td>
-    <td class="tg-5fiw">4.8</td>
-    <td class="tg-5fiw">9.6</td>
-    <td class="tg-5fiw">10.3</td>
-    <td class="tg-5fiw">14.2</td>
+    <td class="tg-5fiw">7.20</td>
+    <td class="tg-5fiw">5.80</td>
+    <td class="tg-5fiw">16.00</td>
+    <td class="tg-5fiw">17.10</td>
+    <td class="tg-5fiw">21.00</td>
   </tr>
   <tr>
     <td class="tg-0pky">LCOS (USD/t steel)</td>
-    <td class="tg-dvpl">1191.0</td>
+    <td class="tg-dvpl">1235.30</td>
     <td class="tg-dvpl"></td>
     <td class="tg-dvpl"></td>
     <td class="tg-dvpl"></td>
@@ -195,7 +195,7 @@ for the reference designs.
   <tr>
     <td class="tg-btxf">LCOA (USD/kg-NH3)</td>
     <td class="tg-5fiw"></td>
-    <td class="tg-5fiw">1.1</td>
+    <td class="tg-5fiw">1.30</td>
     <td class="tg-5fiw"></td>
     <td class="tg-5fiw"></td>
     <td class="tg-5fiw"></td>
@@ -212,97 +212,295 @@ that were used across all reference design scenarios.
 <table class="tg"><thead>
 <caption class="tg-bbhh">Table 2 - Summary of PEM Parameters and Assumptions</caption>
   <tr>
-    <th class="tg-amwm">PEM Physical Parameters</th>
-    <th class="tg-amwm">Value</th>
+    <th class="tg-zyik">ID</th>
+    <th class="tg-zyik">01</th>
+    <th class="tg-zyik">02</th>
+    <th class="tg-zyik">03</th>
+    <th class="tg-zyik">04</th>
+    <th class="tg-zyik">05</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-btxf">State</td>
+    <td class="tg-5fiw">Minnesota</td>
+    <td class="tg-5fiw">Texas</td>
+    <td class="tg-5fiw">Texas</td>
+    <td class="tg-5fiw">New Jersey</td>
+    <td class="tg-5fiw">California</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Area</td>
+    <td class="tg-dvpl"></td>
+    <td class="tg-dvpl"></td>
+    <td class="tg-dvpl">Gulf Coast</td>
+    <td class="tg-dvpl">New York Bight</td>
+    <td class="tg-dvpl"></td>
+  </tr>
+  <tr>
+    <td class="tg-btxf">Product</td>
+    <td class="tg-5fiw">Steel</td>
+    <td class="tg-5fiw">Ammonia</td>
+    <td class="tg-5fiw">Hydrogen</td>
+    <td class="tg-5fiw">Hydrogen</td>
+    <td class="tg-5fiw">Hydrogen</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">On/Offshore</td>
+    <td class="tg-dvpl">Onshore</td>
+    <td class="tg-dvpl">Onshore</td>
+    <td class="tg-dvpl">Offshore</td>
+    <td class="tg-dvpl">Offshore</td>
+    <td class="tg-dvpl">Offshore</td>
+  </tr>
+  <tr>
+  <tr>
+    <th class="tg-amwm" colspan="6">PEM Physical Parameters</th>
   </tr></thead>
 <tbody>
   <tr>
     <td class="tg-buh4">Stack life (hours)</td>
-    <td class="tg-p5oz">80,000</td>
+    <td class="tg-dzk6" colspan="5">80,000</td>
   </tr>
   <tr>
     <td class="tg-0lax">Turndown ratio</td>
-    <td class="tg-lqy6">10%</td>
+    <td class="tg-baqh" colspan="5">10%</td>
   </tr>
   <tr>
     <td class="tg-buh4">End-of-life efficiency loss</td>
-    <td class="tg-p5oz">10%</td>
+    <td class="tg-dzk6" colspan="5">10%</td>
   </tr>
   <tr>
     <td class="tg-0lax">Steady degradation rate (mV/hour)</td>
-    <td class="tg-lqy6">0.0025</td>
+    <td class="tg-baqh" colspan="5">0.0025</td>
   </tr>
   <tr>
     <td class="tg-buh4">On/off cycle degradation (mV/off-cycle)</td>
-    <td class="tg-p5oz">0.148</td>
+    <td class="tg-dzk6" colspan="5">0.148</td>
   </tr>
   <tr>
     <td class="tg-0lax">Rated beginning-of-life efficiency (kWh/kg)</td>
-    <td class="tg-lqy6">51.0</td>
+    <td class="tg-baqh" colspan="5">51.0</td>
   </tr>
   <tr>
     <td class="tg-0lax">Number of cells</td>
-    <td class="tg-lqy6">135</td>
+    <td class="tg-dzk6" colspan="5">135</td>
   </tr>
   <tr>
     <td class="tg-0lax">Cell active area (cm^2)</td>
-    <td class="tg-lqy6">1949</td>
+    <td class="tg-baqh" colspan="5">1949</td>
   </tr>
   <tr>
     <td class="tg-0lax">Stack rating (MW)</td>
-    <td class="tg-lqy6">1.0</td>
+    <td class="tg-dzk6" colspan="5">1.0</td>
   </tr>
   <tr>
     <td class="tg-0lax">Membrane thickness (cm)</td>
-    <td class="tg-lqy6">0.0077</td>
+    <td class="tg-baqh" colspan="5">0.0077</td>
   </tr>
   <tr>
-    <th class="tg-amwm">PEM Cost Parameters</th>
-    <th class="tg-amwm">Value</th>
+    <th class="tg-amwm" colspan="6">PEM Cost Parameters</th>
   </tr>
   <tr>
     <td class="tg-0lax">Installed CapEx cost ($/kW)</td>
-    <td class="tg-lqy6">1295.00</td>
+    <td class="tg-baqh" colspan="5">1295.00</td>
   </tr>
   <tr>
     <td class="tg-buh4">Fixed O&amp;M ($/kW-year)</td>
-    <td class="tg-p5oz">12.80</td>
+    <td class="tg-dzk6" colspan="5">12.80</td>
   </tr>
   <tr>
     <td class="tg-0lax">Variable O&amp;M ($/MWh)</td>
-    <td class="tg-lqy6">1.30</td>
+    <td class="tg-baqh" colspan="5">1.30</td>
   </tr>
   <tr>
     <td class="tg-buh4">Stack replacement cost</td>
-    <td class="tg-dzk6">15% of installed capital cost</td>
+    <td class="tg-dzk6" colspan="5">15% of installed capital cost</td>
   </tr>
   <tr>
-    <th class="tg-amwm">PEM financial parameters</th>
-    <th class="tg-amwm">Value</th>
+    <th class="tg-amwm" colspan="6">PEM financial parameters</th>
   </tr>
   <tr>
-    <td class="tg-buh4">Combined state and federal tax rate</td>
-    <td class="tg-p5oz">25.74%</td>
+    <td class="tg-0lax">Combined state and federal tax rate</td>
+    <td class="tg-baqh" colspan="5">25.74%</td>
   </tr>
   <tr>
-    <td class="tg-0lax">Capital gains tax rate</td>
-    <td class="tg-lqy6">15%</td>
+    <td class="tg-buh4">Capital gains tax rate</td>
+    <td class="tg-dzk6" colspan="5">15%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Real ROE hydrogen</td>
+    <td class="tg-baqh" colspan="5">10.89%</td>
+  </tr>
+  <tr>
+    <td class="tg-buh4">WACC-hydrogen</td>
+    <td class="tg-5fiw">7.5%</td>
+    <td class="tg-5fiw">7.7%</td>
+    <td class="tg-5fiw">7.4%</td>
+    <td class="tg-5fiw">7.5%</td>
+    <td class="tg-5fiw">7.9%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">CRF-hydrogen</td>
+    <td class="tg-lqy6">8.3%</td>
+    <td class="tg-lqy6">8.5%</td>
+    <td class="tg-lqy6">8.2%</td>
+    <td class="tg-lqy6">8.2%</td>
+    <td class="tg-lqy6">8.5%</td>
+  </tr>
+  <tr>
+    <td class="tg-buh4">Debt percentage hyrdogen</td>
+    <td class="tg-dzk6" colspan="5">38.5%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Debt interest rate electrolyzer</td>
+    <td class="tg-baqh" colspan="5">5.0%</td>
   </tr>
   <tr>
     <td class="tg-buh4">Depreciation method</td>
-    <td class="tg-p5oz">7-year MACRS</td>
+    <td class="tg-dzk6" colspan="5">7-year MACRS</td>
   </tr>
   <tr>
     <td class="tg-0lax">General inflation rate</td>
-    <td class="tg-lqy6">0%</td>
+    <td class="tg-baqh" colspan="5">0%</td>
   </tr>
   <tr>
     <td class="tg-buh4">Plant life</td>
-    <td class="tg-p5oz">30 years</td>
+    <td class="tg-dzk6" colspan="5">30 years</td>
   </tr>
   <tr>
     <td class="tg-0lax">U.S. dollar year</td>
-    <td class="tg-lqy6">2022</td>
+    <td class="tg-baqh" colspan="5">2022</td>
+  </tr>
+</tbody></table>
+
+&nbsp;
+
+# Hydrogen Storage Configuration
+
+Table 2 summarizes the physical, cost, and financial modeling parameters for the hydrogen storage 
+that were used across all reference design scenarios.
+
+<table class="tg"><thead>
+<caption class="tg-bbhh">Table 3 - Summary of Hydrogen Storage Parameters and Assumptions</caption>
+  <tr>
+    <th class="tg-zyik">ID</th>
+    <th class="tg-zyik">01</th>
+    <th class="tg-zyik">02</th>
+    <th class="tg-zyik">03</th>
+    <th class="tg-zyik">04</th>
+    <th class="tg-zyik">05</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-btxf">State</td>
+    <td class="tg-5fiw">Minnesota</td>
+    <td class="tg-5fiw">Texas</td>
+    <td class="tg-5fiw">Texas</td>
+    <td class="tg-5fiw">New Jersey</td>
+    <td class="tg-5fiw">California</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Area</td>
+    <td class="tg-dvpl"></td>
+    <td class="tg-dvpl"></td>
+    <td class="tg-dvpl">Gulf Coast</td>
+    <td class="tg-dvpl">New York Bight</td>
+    <td class="tg-dvpl"></td>
+  </tr>
+  <tr>
+    <td class="tg-btxf">Product</td>
+    <td class="tg-5fiw">Steel</td>
+    <td class="tg-5fiw">Ammonia</td>
+    <td class="tg-5fiw">Hydrogen</td>
+    <td class="tg-5fiw">Hydrogen</td>
+    <td class="tg-5fiw">Hydrogen</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">On/Offshore</td>
+    <td class="tg-dvpl">Onshore</td>
+    <td class="tg-dvpl">Onshore</td>
+    <td class="tg-dvpl">Offshore</td>
+    <td class="tg-dvpl">Offshore</td>
+    <td class="tg-dvpl">Offshore</td>
+  </tr>
+  <tr>
+  <tr>
+    <th class="tg-amwm" colspan="6">Hydrogen Storage Physical Parameters</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">Storage type</td>
+    <td class="tg-lqy6">Rock cavern</td>
+    <td class="tg-lqy6">Salt cavern</td>
+    <td class="tg-lqy6">Salt cavern</td>
+    <td class="tg-lqy6">Rock cavern</td>
+    <td class="tg-lqy6">Rock cavern</td>
+  </tr>
+  <tr>
+    <td class="tg-btxf">Hydrogen storage capacity (kt)</td>
+    <td class="tg-5fiw">1.9</td>
+    <td class="tg-5fiw">3.6</td>
+    <td class="tg-5fiw">4.2</td>
+    <td class="tg-5fiw">5.7</td>
+    <td class="tg-5fiw">8.3</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Hydrogen storage max fill rate (t/h)</td>
+    <td class="tg-lqy6">14.1</td>
+    <td class="tg-lqy6">12.5</td>
+    <td class="tg-lqy6">22.2</td>
+    <td class="tg-lqy6">22.1</td>
+    <td class="tg-lqy6">22.1</td>
+  </tr>
+  <tr>
+    <th class="tg-amwm" colspan="6">Hydrogen Storage Cost Parameters</th>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Hydrogen storage CapEx (USD/kg)</td>
+    <td class="tg-lqy6">49.6</td>
+    <td class="tg-lqy6">19.7</td>
+    <td class="tg-lqy6">19.3</td>
+    <td class="tg-lqy6">47.7</td>
+    <td class="tg-lqy6">49.6</td>
+  </tr>
+  <tr>
+    <td class="tg-btxf">Hydrogen storage fixed O&M (USD/t)</td>
+    <td class="tg-5fiw">1752.3</td>
+    <td class="tg-5fiw">709.5</td>
+    <td class="tg-5fiw">698.9</td>
+    <td class="tg-5fiw">1561.8</td>
+    <td class="tg-5fiw">1595.8</td>
+  </tr>
+  <tr>
+    <th class="tg-amwm" colspan="6">Hydrogen storage financial parameters</th>
+  </tr>
+  <tr>
+    <td class="tg-buh4">Combined state and federal tax rate</td>
+    <td class="tg-baqh" colspan="5">25.74%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Capital gains tax rate</td>
+    <td class="tg-dzk6" colspan="5">15%</td>
+  </tr>
+  <tr>
+    <td class="tg-buh4">Debt interest rate hydrogen storage</td>
+    <td class="tg-baqh" colspan="5">5.0%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Depreciation method</td>
+    <td class="tg-dzk6" colspan="5">7-year MACRS</td>
+  </tr>
+  <tr>
+    <td class="tg-buh4">General inflation rate</td>
+    <td class="tg-baqh" colspan="5">0%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Plant life</td>
+    <td class="tg-dzk6" colspan="5">30 years</td>
+  </tr>
+  <tr>
+    <td class="tg-buh4">U.S. dollar year</td>
+    <td class="tg-baqh" colspan="5">2022</td>
   </tr>
 </tbody></table>
 
@@ -310,11 +508,11 @@ that were used across all reference design scenarios.
 
 # Wind Configuration
 
-Table 3 summarizes the physical, cost, and financial modeling parameters for the wind plant that
+Table 4 summarizes the physical, cost, and financial modeling parameters for the wind plant that
 were used across all reference design scenarios.
 
 <table class="tg"><thead>
-<caption class="tg-bbhh">Table 3 - Summary of Wind Parameters and Assumptions</caption>
+<caption class="tg-bbhh">Table 4 - Summary of Wind Parameters and Assumptions</caption>
   <tr>
     <th class="tg-zyik">ID</th>
     <th class="tg-zyik">01</th>
@@ -456,7 +654,7 @@ were used across all reference design scenarios.
     <td class="tg-dvpl">1380.00</td>
     <td class="tg-dvpl">2470.36*</td>
     <td class="tg-dvpl">2470.89*</td>
-    <td class="tg-dvpl">4247.0*</td>
+    <td class="tg-dvpl">4247.00*</td>
   </tr>
   <tr>
     <td class="tg-btxf">Wind fixed O&amp;M (USD/kW)</td>
@@ -468,6 +666,14 @@ were used across all reference design scenarios.
   </tr>
   <tr>
     <th class="tg-amwm" colspan="6">Wind Financial Parameters</th>
+  </tr>
+  <tr>
+    <td class="tg-buh4">Combined state and federal tax rate</td>
+    <td class="tg-dzk6" colspan="5">25.74%</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Capital gains tax rate</td>
+    <td class="tg-baqh" colspan="5">15%</td>
   </tr>
   <tr>
     <td class="tg-btxf">Real ROE wind</td>
@@ -495,17 +701,25 @@ were used across all reference design scenarios.
     <td class="tg-buh4">Depreciation period (years)</td>
     <td class="tg-dzk6" colspan="5">7</td>
   </tr>
+  <tr>
+    <td class="tg-0lax">Plant life</td>
+    <td class="tg-baqh" colspan="5">30 years</td>
+  </tr>
+  <tr>
+    <td class="tg-buh4">U.S. dollar year</td>
+    <td class="tg-dzk6" colspan="5">2022</td>
+  </tr>
 </tbody></table>
 
 &nbsp;
 
 # Solar PV Configuration
 
-Table 4 summarizes the physical, cost, and financial modeling parameters for the solar PV plant
+Table 5 summarizes the physical, cost, and financial modeling parameters for the solar PV plant
 that were used across all reference design scenarios.
 
 <table class="tg"><thead>
-<caption class="tg-bbhh">Table 4 - Summary of Solar PV Parameters and Assumptions</caption>
+<caption class="tg-bbhh">Table 5 - Summary of Solar PV Parameters and Assumptions</caption>
   <tr>
     <th class="tg-zyik">ID</th>
     <th class="tg-zyik">01</th>
@@ -580,7 +794,7 @@ that were used across all reference design scenarios.
     <td class="tg-dvpl">59.2</td>
     <td class="tg-dvpl">76.3</td>
     <td class="tg-dvpl">67.7</td>
-    <td class="tg-dvpl">60..2</td>
+    <td class="tg-dvpl">60.3</td>
   </tr>
   <tr>
     <th class="tg-amwm" colspan="6">PV Cost Parameters</th>
@@ -591,10 +805,18 @@ that were used across all reference design scenarios.
   </tr>
   <tr>
     <td class="tg-0pky">Solar PV fixed O&amp;M (USD/kW)</td>
-    <td class="tg-c3ow" colspan="5">18.0</td>
+    <td class="tg-c3ow" colspan="5">18.00</td>
   </tr>
   <tr>
     <th class="tg-amwm" colspan="6">PV Financial Parameters</th>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Combined state and federal tax rate</td>
+    <td class="tg-baqh" colspan="5">25.74%</td>
+  </tr>
+  <tr>
+    <td class="tg-buh4">Capital gains tax rate</td>
+    <td class="tg-dzk6" colspan="5">15%</td>
   </tr>
   <tr>
     <td class="tg-0pky">Real ROE solar PV</td>
@@ -620,17 +842,25 @@ that were used across all reference design scenarios.
     <td class="tg-buh4">Depreciation period (years)</td>
     <td class="tg-dzk6" colspan="5">7</td>
   </tr>
+  <tr>
+    <td class="tg-0lax">Plant life</td>
+    <td class="tg-baqh" colspan="5">30 years</td>
+  </tr>
+  <tr>
+    <td class="tg-buh4">U.S. dollar year</td>
+    <td class="tg-dzk6" colspan="5">2022</td>
+  </tr>
 </tbody></table>
 
 &nbsp;
 
 # Battery Storage Configuration
 
-Table 5 summarizes the physical, cost, and financial modeling parameters for the battery storage
+Table 6 summarizes the physical, cost, and financial modeling parameters for the battery storage
 that were used across all reference design scenarios.
 
 <table class="tg"><thead>
-<caption class="tg-bbhh">Table 5 - Summary of Battery Storage Parameters and Assumptions</caption>
+<caption class="tg-bbhh">Table 6 - Summary of Battery Storage Parameters and Assumptions</caption>
   <tr>
     <th class="tg-zyik">ID</th>
     <th class="tg-zyik">01</th>
@@ -695,13 +925,17 @@ that were used across all reference design scenarios.
     <th class="tg-amwm" colspan="6">Battery Storage Cost Parameters</th>
   </tr>
   <tr>
-    <td class="tg-btxf">Battery CapEx (USD/kW)</td>
+    <td class="tg-btxf">Battery Power CapEx (USD/kW)</td>
     <td class="tg-abip" colspan="5">311.00</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Battery fixed O&amp;M (USD/kW)</td>
-    <td class="tg-c3ow" colspan="2">15.53</td>
-    <td class="tg-c3ow" colspan="3">38.77</td>
+    <td class="tg-0pky">Battery Energy CapEx (USD/kWh)</td>
+    <td class="tg-c3ow" colspan="5">310.00</td>
+  </tr>
+  <tr>
+    <td class="tg-btxf">Battery fixed O&amp;M (USD/kW)</td>
+    <td class="tg-abip" colspan="2">15.53</td>
+    <td class="tg-abip" colspan="3">38.77</td>
   </tr>
   <tr>
     <th class="tg-amwm" colspan="6">Battery Storage Financial Parameters</th>
@@ -736,12 +970,12 @@ that were used across all reference design scenarios.
 
 # Steel Configuration
 
-Table 6 summarizes the physical, cost, and financial modeling parameters for the steel plant that
+Table 7 summarizes the physical, cost, and financial modeling parameters for the steel plant that
 were used across all reference design scenarios. Currently there is just one plant that includes
 steel production, ID 01 in Minnesota.
 
 <table class="tg"><thead>
-<caption class="tg-bbhh">Table 6 - Summary of Steel Parameters and Assumptions</caption>
+<caption class="tg-bbhh">Table 7 - Summary of Steel Parameters and Assumptions</caption>
   <tr>
     <th class="tg-zyik">ID</th>
     <th class="tg-zyik">01</th>
@@ -764,18 +998,18 @@ steel production, ID 01 in Minnesota.
   </tr>
   <tr>
     <td class="tg-btxf">Steel capacity (Mt/yr)</td>
-    <td class="tg-5fiw">1.0</td>
+    <td class="tg-5fiw">1.1</td>
   </tr>
   <tr>
     <th class="tg-amwm" colspan="2">Steel Cost Parameters</th>
   </tr>
   <tr>
     <td class="tg-btxf">Steel plant CapEx (USD/kW)</td>
-    <td class="tg-5fiw">592.50*</td>
+    <td class="tg-5fiw">571.03*</td>
   </tr>
   <tr>
     <td class="tg-0pky">Steel plant fixed O&amp;M (USD/kW)</td>
-    <td class="tg-dvpl">103.41*</td>
+    <td class="tg-dvpl">96.50*</td>
   </tr>
   <tr>
     <th class="tg-amwm" colspan="2">Steel Financial Parameters</th>
@@ -785,8 +1019,16 @@ steel production, ID 01 in Minnesota.
     <td class="tg-dvpl">10.89%</td>
   </tr>
   <tr>
+    <td class="tg-btxf">WACC-steel</td>
+    <td class="tg-5fiw">8.1%</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">CRF-steel</td>
+    <td class="tg-dvpl">8.8%</td>
+  </tr>
+  <tr>
     <td class="tg-btxf">Debt percentage steel</td>
-    <td class="tg-5fiw">38.45%</td>
+    <td class="tg-5fiw">38.5%</td>
   </tr>
   <tr>
     <td class="tg-0pky">Debt interest rate steel</td>
@@ -810,12 +1052,12 @@ steel production, ID 01 in Minnesota.
 
 # Ammonia Configuration
 
-Table 7 summarizes the physical, cost, and financial modeling parameters for the ammonia plant that
+Table 8 summarizes the physical, cost, and financial modeling parameters for the ammonia plant that
 were used across all reference design scenarios. Currently there is just one plant that includes
 ammonia production, ID 02 in Texas.
 
 <table class="tg"><thead>
-<caption class="tg-bbhh">Table 7 - Summary of Ammonia Parameters and Assumptions</caption>
+<caption class="tg-bbhh">Table 8 - Summary of Ammonia Parameters and Assumptions</caption>
   <tr>
     <th class="tg-zyik">ID</th>
     <th class="tg-zyik">02</th>
@@ -838,18 +1080,18 @@ ammonia production, ID 02 in Texas.
   </tr>
   <tr>
     <td class="tg-btxf">Ammonia capacity (Mt/yr)</td>
-    <td class="tg-5fiw">329.0</td>
+    <td class="tg-5fiw">360.3</td>
   </tr>
   <tr>
     <th class="tg-amwm" colspan="2">Ammonia Cost Parameters</th>
   </tr>
   <tr>
     <td class="tg-btxf">Ammonia plant CapEx (USD/kW)</td>
-    <td class="tg-5fiw">289.99*</td>
+    <td class="tg-5fiw">279.90</td>
   </tr>
   <tr>
     <td class="tg-0pky">Ammonia plant fixed O&amp;M (USD/kW)</td>
-    <td class="tg-dvpl">32.67*</td>
+    <td class="tg-dvpl">30.90</td>
   </tr>
   <tr>
     <th class="tg-amwm" colspan="2">Ammonia Financial Parameters</th>
@@ -858,9 +1100,17 @@ ammonia production, ID 02 in Texas.
     <td class="tg-0pky">Real ROE ammonia</td>
     <td class="tg-dvpl">10.89%</td>
   </tr>
+  <td class="tg-btxf">WACC-ammonia</td>
+    <td class="tg-5fiw">8.1%</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">CRF-ammonia</td>
+    <td class="tg-dvpl">8.8%</td>
+  </tr>
+  <tr>
   <tr>
     <td class="tg-btxf">Debt percentage ammonia</td>
-    <td class="tg-5fiw">38.45%</td>
+    <td class="tg-5fiw">38.5%</td>
   </tr>
   <tr>
     <td class="tg-0pky">Debt interest rate ammonia</td>
